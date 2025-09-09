@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preload" href="assets/fonts/custom-font.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>Welcome to My Portfolio</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="fade-in">
+    <div class="container about-wrapper">
+      <img src="images/profile.jpg" alt="Profile Picture" class="profile-pic">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          I'm a passionate programmer specializing in <strong>Fullstack Development</strong>, 
+          <strong>MERN Stack</strong>, and <strong>Mobile App Development</strong>. 
+          I love creating efficient and scalable applications.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="fade-in">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="project-list">
+        <div class="project-item">
+          <h3>Project Title 1</h3>
+          <p>Description of project 1.</p>
+        </div>
+        <div class="project-item">
+          <h3>Project Title 2</h3>
+          <p>Description of project 2.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="fade-in">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
